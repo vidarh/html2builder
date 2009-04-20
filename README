@@ -1,0 +1,14 @@
+
+The goal of html2builder is to take HTML (say from a designer) and
+automatically turn it into Markaby or Nokogiri Builder style Ruby
+for use as a template. Use cases may be to take an initial
+design of a site from a designer and quickly get an initial
+template, to "reverse engineer" a template in another template
+language via the HTML etc.
+
+Ideally it will also recognize some patterns, such as lists,
+and turn it into arrays or arrays of structs that can then be
+replaced with models.
+
+
+
